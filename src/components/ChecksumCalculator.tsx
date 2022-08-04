@@ -8,8 +8,10 @@ const ChecksumCalculator: FC<{ provider: Provider, input: string, className?: st
   const checksum = useChecksum(provider, input);
   return <Card className={`flex flex-col justify-between min-w-fit${className ? ' ' + className : ''}`}>
     <div className="flex justify-between">
-      <Title className="text-sm">{provider.name}</Title>
-      <provider.icon />
+      <>
+        <Title className="text-sm">{provider.name}</Title>
+        {provider.icon}
+      </>
     </div>
     <div className="flex gap-5">
       <Checksum>{checksum}</Checksum>

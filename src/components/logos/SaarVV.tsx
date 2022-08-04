@@ -2,7 +2,7 @@ import { createContextualStyles } from '../../styles/contextual';
 
 const useStyles = createContextualStyles('#fff', '#000');
 
-export function SaarVV(): JSX.Element {
+export default function SaarVV(): JSX.Element {
   const { classes } = useStyles();
   return <svg height="28" viewBox="0 0 812.65 212.13" version="1.0" xmlns="http://www.w3.org/2000/svg">
     <defs>

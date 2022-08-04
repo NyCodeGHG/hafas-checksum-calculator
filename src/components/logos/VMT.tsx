@@ -1,4 +1,4 @@
-export function VMT(): JSX.Element {
+export default function VMT(): JSX.Element {
   return <svg viewBox="0 0 887.35 355.31" height="28" version="1.1">
     <g transform="translate(-7.7459 -126.96)">
       <g transform="matrix(16.422 0 0 -16.422 -7995.2 13223)">

@@ -2,7 +2,7 @@ import { createContextualStyles } from '../../styles/contextual';
 
 const useStyles = createContextualStyles('#fff', '#1a1613');
 
-export function OOEVV(): JSX.Element {
+export default function OOEVV(): JSX.Element {
   const { classes } = useStyles();
   return <svg height="28" version="1.1" viewBox="-1.0543 -1.0543 88.501 26.366" xmlns="http://www.w3.org/2000/svg">
     <g>

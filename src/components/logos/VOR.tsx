@@ -2,7 +2,7 @@ import { createContextualStyles } from "../../styles/contextual";
 
 const useStyles = createContextualStyles('#fff', '#4b4748');
 
-export function VOR(): JSX.Element {
+export default function VOR(): JSX.Element {
   const { classes } = useStyles();
   return <svg viewBox="0 0 400 114.62" height="28" version="1.1">
     <g transform="translate(-303.74 -618.67)">

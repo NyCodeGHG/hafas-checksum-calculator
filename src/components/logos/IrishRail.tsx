@@ -1,4 +1,4 @@
-export function IrishRail(): JSX.Element {
+export default function IrishRail(): JSX.Element {
   return <svg xmlns="http://www.w3.org/2000/svg" height="28" viewBox="0 0 500 334">
     <defs>
       <linearGradient id="LtGn" x1="0%" x2="100%" y1="100%" y2="0%">

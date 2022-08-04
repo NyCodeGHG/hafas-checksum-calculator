@@ -2,7 +2,7 @@ import { createContextualStyles } from "../../styles/contextual";
 
 const useStyles = createContextualStyles('#fff', '#1b1c20');
 
-export function VBN(): JSX.Element {
+export default function VBN(): JSX.Element {
   const { classes } = useStyles();
   return <svg height="28" viewBox="0 0 79.747 110.77" version="1.0" xmlns="http://www.w3.org/2000/svg">
     <path d="m2.3656 76.61h74.918v-74.687h-74.918z" fill="#fff" />

@@ -1,4 +1,4 @@
-export function VSN(): JSX.Element {
+export default function VSN(): JSX.Element {
   return <svg height="28" version="1.0" viewBox="-1.9959 -1.9959 233.03 65.387" xmlns="http://www.w3.org/2000/svg">
     <g>
       <path d="m176.38-2.0061-21.812 21.812h-97.969v21.75h-58.594v21.844h145.84l21.781-21.812h65.406v-43.594z" fill="#0077b5" />

@@ -1,4 +1,4 @@
-export function DeutscheBahn(): JSX.Element {
+export default function DeutscheBahn(): JSX.Element {
   return (
     <svg
       id="DB_logo"

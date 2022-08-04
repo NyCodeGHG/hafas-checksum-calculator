@@ -1,4 +1,4 @@
-export function VVV(): JSX.Element {
+export default function VVV(): JSX.Element {
   return <svg height="28" version="1.1" viewBox="-1.0632 -1.0632 83.981 35.417" xmlns="http://www.w3.org/2000/svg">
     <g fill="#4c575f">
       <path d="m76.601 19.148h-6.9662l-6.0325-20.223h6.2875l3.3138 12.264h0.0562l3.2575-12.264h6.4012m-31.136 20.223h-6.9662l-6.0325-20.223h6.2875l3.3125 12.264h0.0575l3.2575-12.264h6.4m-46.161 20.223h-6.9675l-6.0325-20.223h6.2875l3.3138 12.264h0.0563l3.2575-12.264h6.4012" />

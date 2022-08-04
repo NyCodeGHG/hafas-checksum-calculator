@@ -2,7 +2,7 @@ import { createContextualStyles } from "../../styles/contextual";
 
 const useStyles = createContextualStyles('#fff', '#231f20');
 
-export function SBahnMunich(): JSX.Element {
+export default function SBahnMunich(): JSX.Element {
   const { classes } = useStyles();
   return (
     <svg
