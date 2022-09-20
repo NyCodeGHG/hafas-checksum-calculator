@@ -1,4 +1,4 @@
-import { Dispatch, SetStateAction, useState } from "react";
+import { Dispatch, SetStateAction, useState } from 'react';
 
 export function useJSONState<T>(initialValue: string): [T | undefined, string, Dispatch<SetStateAction<string>>] {
   const [value, setValue] = useState(initialValue);
@@ -8,7 +8,7 @@ export function useJSONState<T>(initialValue: string): [T | undefined, string, D
 
 function tryParse<T>(value: string): T | undefined {
   try {
-    return JSON.parse(value);
+    return JSON.parse(value) as T;
   } catch (e) {
     return undefined;
   }

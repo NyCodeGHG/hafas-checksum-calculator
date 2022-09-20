@@ -1,4 +1,4 @@
-import { createContextualStyles } from "../../styles/contextual";
+import { createContextualStyles } from '../../styles/contextual';
 
 const useStyles = createContextualStyles('#fff', '#4b4748');
 

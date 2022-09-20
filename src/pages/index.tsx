@@ -1,9 +1,9 @@
-import { Button, Loader, Textarea } from "@mantine/core";
-import { lazy, Suspense } from "react";
-const ChecksumCalculator = lazy(() => import("../components/ChecksumCalculator"));
-import JsonValidationBadge from "../components/JsonValidationBadge";
-import { useJSONState } from "../hooks";
-import { providers } from "../providers";
+import { Button, Loader, Textarea } from '@mantine/core';
+import { lazy, Suspense } from 'react';
+const ChecksumCalculator = lazy(() => import('../components/ChecksumCalculator'));
+import JsonValidationBadge from '../components/JsonValidationBadge';
+import { useJSONState } from '../hooks';
+import { providers } from '../providers';
 
 function Home(): JSX.Element {
   const [value, text, setValue] = useJSONState('');
@@ -38,4 +38,4 @@ function Home(): JSX.Element {
   </div>;
 }
 
-export default Home
+export default Home;

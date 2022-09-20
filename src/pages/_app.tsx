@@ -15,4 +15,4 @@ function MyApp({ Component, pageProps }: AppProps) {
   </MantineProvider>);
 }
 
-export default MyApp
+export default MyApp;

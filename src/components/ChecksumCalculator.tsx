@@ -1,8 +1,8 @@
-import { Card, Title } from "@mantine/core";
-import Link from "next/link";
-import { FC, useMemo } from "react";
-import { calculateChecksum, calculateMicMacChecksum } from "../checksum";
-import { Provider } from "../providers";
+import { Card, Title } from '@mantine/core';
+import Link from 'next/link';
+import { FC, useMemo } from 'react';
+import { calculateChecksum, calculateMicMacChecksum } from '../checksum';
+import { Provider } from '../providers';
 
 const ChecksumCalculator: FC<{ provider: Provider, input: string, className?: string }> = ({ provider, input, className }) => {
   const checksum = useChecksum(provider, input);
@@ -19,21 +19,21 @@ const ChecksumCalculator: FC<{ provider: Provider, input: string, className?: st
     <Link href={provider.url}>
       <a className="no-underline text-gray-500">{provider.url}</a>
     </Link>
-  </Card>
-}
+  </Card>;
+};
 
 const Checksum: FC<{ children: string | [string, string] }> = ({ children }) => {
   if (typeof children === 'string') {
     return <div>
       <pre>{children}</pre>
-    </div>
+    </div>;
   } else {
     return <div>
       <pre>Mic: {children[0]}</pre>
       <pre>Mac: {children[1]}</pre>
-    </div>
+    </div>;
   }
-}
+};
 
 function useChecksum(provider: Provider, input: string): string | [string, string] {
   return useMemo(() => {
