@@ -7,7 +7,7 @@ specifiers:
   '@mantine/hooks': 5.5.0
   '@mantine/next': 5.5.0
   '@next/bundle-analyzer': 13.0.0
-  '@types/node': 18.6.3
+  '@types/node': 18.15.8
   '@types/react': 18.0.23
   '@types/react-dom': 18.0.6
   autoprefixer: 10.4.12
@@ -34,7 +34,7 @@ dependencies:
 
 devDependencies:
   '@next/bundle-analyzer': 13.0.0
-  '@types/node': 18.6.3
+  '@types/node': 18.15.8
   '@types/react': 18.0.23
   '@types/react-dom': 18.0.6
   autoprefixer: 10.4.12_postcss@8.4.16
@@ -669,8 +669,8 @@ packages:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
     dev: true
 
-  /@types/node/18.6.3:
-    resolution: {integrity: sha512-6qKpDtoaYLM+5+AFChLhHermMQxc3TOEFIDzrZLPRGHPrLEwqFkkT5Kx3ju05g6X7uDPazz3jHbKPX0KzCjntg==}
+  /@types/node/18.15.8:
+    resolution: {integrity: sha512-kzGNJZ57XEH7RdckxZ7wfRjB9hgZABF+NLgR1B2zogUvV0gmK0/60VYA4yb4oKZckPiiJlmmfpdqTfCN0VRX+Q==}
     dev: true
 
   /@types/parse-json/4.0.0:
